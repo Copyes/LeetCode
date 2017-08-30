@@ -5,6 +5,7 @@ The producting of LeetCode
 ### The List
 
 -   [x] 1、  Two Sum
+-   [x] 7、  Reverse Integer
 -   [x] 9、  Palindrome Number
 -   [x] 15、 3Sum
 -   [x] 20、 Valid Parentheses
