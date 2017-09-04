@@ -9,6 +9,7 @@ The producting of LeetCode
 -   [x] 9、  Palindrome Number
 -   [x] 15、 3Sum
 -   [x] 20、 Valid Parentheses
+-   [x] 21、 Merge Two Sorted Lists
 -   [x] 27、 Remove Element
 -   [x] 35、 Search Insert Position
 -   [x] 53、 Max SubArray
