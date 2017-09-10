@@ -5,6 +5,8 @@ The producting of LeetCode
 ### The List
 
 -   [x] 1、  Two Sum
+-   [x] 2、  Add Two Numbers
+-   [x] 3、  Longest Substring Without Repeating Characters
 -   [x] 7、  Reverse Integer
 -   [x] 9、  Palindrome Number
 -   [x] 14、 Longest Common Prefix
