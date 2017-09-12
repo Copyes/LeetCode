@@ -14,7 +14,9 @@ The producting of LeetCode
 -   [x] 15、 3Sum
 -   [x] 20、 Valid Parentheses
 -   [x] 21、 Merge Two Sorted Lists
+-   [x] 26、 Remove Duplicates from Sorted Array
 -   [x] 27、 Remove Element
+-   [x] 28、 Implement strStr()
 -   [x] 35、 Search Insert Position
 -   [x] 53、 Max SubArray
 -   [x] 58、 Length of Last Word
