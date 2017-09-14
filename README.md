@@ -19,6 +19,7 @@ The producting of LeetCode
 -   [x] 28、 Implement strStr()
 -   [x] 35、 Search Insert Position
 -   [x] 46、 Permutations (N-P)
+-   [x] 47、 Permutations2 (N-P)
 -   [x] 53、 Max SubArray
 -   [x] 58、 Length of Last Word
 -   [x] 66、 Plus One
