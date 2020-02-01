@@ -6,7 +6,7 @@
  * @return {number}
  */
 var superEggDrop1 = function(K, N) {
-    if(K === 1 || N === 2) return N;
+    if(K === 1 || N <= 2) return N;
     const aux = new Array(K);
     // 初始化一个K行， N+1列的二维数组（多一个0层方便计算）
     for(let i = 0; i < K; i++) {
