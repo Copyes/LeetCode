@@ -26,4 +26,13 @@ var reverseWords = function(s) {
   return wordsArr.join(' ');
 };
 
-console.log(reverseWords("Let's take LeetCode contest"));
+var reverseWords2 = function(s) {
+  const wordsArr = s.split(' ');
+  let result = '';
+  wordsArr.forEach((item) => {
+    result += `${item.split('').reverse().join('')} `;
+  });
+  return result.substring(0, result.length-1);
+};
+
+console.log(reverseWords2("Let's take LeetCode contest"));
