@@ -18,7 +18,6 @@ var containsDuplicate = function(nums) {
       numMap[`${nums[i]}`] = 1;
     }
   }
-  console.log(numMap);
   return false;
 };
 
