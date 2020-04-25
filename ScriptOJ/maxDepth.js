@@ -50,4 +50,32 @@ var maxDepth = function(root) {
     l && queue.push(l);
     r && queue.push(r);
   }
+  return depth;
+}
+
+var maxDepth = function(root) {
+  if(!root) return 0;
+  if(!root.left && !root.right) return 1;
+
+  let queue = [root, null];
+  let depth = 1;
+  let cur = root;
+  while ((cur = queue.shift()) !== undefined) {
+    if(cur === null) {
+      if(queue.length === 0) {
+        return depth;
+      }
+      depth++;
+      queue.push(null);
+      continue;
+    }
+
+    let l = root.left;
+    let r = root.right;
+
+    l && queue.push(l);
+    r && queue.push(r);
+  }
+
+  return depth;
 }
