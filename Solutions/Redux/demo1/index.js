@@ -1,3 +1,4 @@
+// 最基本的状态管理器，无校验无约束
 const createStore = function(initialState) {
   let state = initialState;
   let listeners = [];
