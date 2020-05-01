@@ -16,8 +16,4 @@ class EventEmit {
       })
     }
   }
-  off(event, handle) {
-    let index = this.events.indexOf(event);
-    this.events
-  }
 }
