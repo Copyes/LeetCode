@@ -3,10 +3,6 @@
 import { combineReducers, createStore } from './redux';
 import InfoReducer from './reducers/info';
 import CounterReducer from './reducers/counter';
-import loggerMiddleware from './middlewares/loggerMiddleware';
-import timerMiddleware from './middlewares/timerMiddleware';
-import exceptionMiddleware from './middlewares/exceptionMiddleware';
-
 
 const reducers = combineReducers({
   info: InfoReducer,
@@ -14,13 +10,8 @@ const reducers = combineReducers({
 });
 
 let store = createStore(reducers, initState);
-let next = store.dispatch;
 
-let logger = loggerMiddleware(store);
-let timer = timerMiddleware(store);
-let exception = exceptionMiddleware(store);
 
-store.dispatch = exception(logger(timer(next)))
 
 store.subscribe(() => {
   let state = store.getState();
