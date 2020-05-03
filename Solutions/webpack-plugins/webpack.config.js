@@ -19,6 +19,15 @@ module.exports = {
       {
         test: /\.css$/,
         use: [path.resolve(__dirname, 'loaders/simple-loader.js'), 'css-loader']
+      },
+      {
+        test: /\.html$/,
+        use: ['html-loader', {
+          loader: path.resolve(__dirname, 'loaders/html-minify-loader.js'),
+          options: {
+            comments: false
+          }
+        }]
       }
     ]
   },

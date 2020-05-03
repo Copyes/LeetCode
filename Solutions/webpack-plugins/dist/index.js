@@ -127,7 +127,7 @@ eval("\n    let style = document.createElement('style');\n\n    /**\n      * 利
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./index.css */ \"./src/index.css\");\nmodule.exports = function(a, b) {\n  return a + b;\n}\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__(/*! ./index.css */ \"./src/index.css\");\n// require('./index.html');\nmodule.exports = function(a, b) {\n  return a + b;\n}\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
