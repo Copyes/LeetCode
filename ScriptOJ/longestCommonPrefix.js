@@ -9,7 +9,7 @@ var lCPrefixRec = function(strs) {
     return strs[0];
   }
 
-  var mid = Math.floor(strs/2);
+  var mid = Math.floor(length/2);
   var left = strs.slice(0,mid);
   var right = strs.slice(mid, length);
 
