@@ -17,4 +17,21 @@ var subsets = function(nums) {
   }
   return res;
 };
+
+var subsets = function(nums) {
+  let res = [];
+  let track = [];
+  let start = 0;
+  backtrack(nums, start, track, res);
+  function backtrack(nums, start, track, res) {
+    res.push(track.slice());
+    for (let i = start; i < nums.length; i++) {
+      track.push(nums[i]);
+      backtrack(nums, i + 1, track, res);
+      track.pop();
+    }
+  }
+  return res;
+};
+
 console.log(subsets([1,2,3]));
