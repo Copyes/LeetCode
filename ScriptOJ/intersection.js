@@ -7,8 +7,6 @@
  * @return {number[]}
  */
 var intersection = function(nums1, nums2) {
-  // if(JSON.stringify(nums1) === JSON.stringify(nums2)) return nums1;
-
   let len1 = nums1.length;
   let len2 = nums2.length;
 
