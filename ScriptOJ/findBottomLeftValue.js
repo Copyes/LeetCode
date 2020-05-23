@@ -6,28 +6,28 @@
  * }
  */
 /**
- * 107. 二叉树的层次遍历 II
+ * 给定一个二叉树，在树的最后一行找到最左边的值。
  * @param {TreeNode} root
- * @return {number[][]}
+ * @return {number}
  */
-var levelOrderBottom = function(root) {
-  if(!root) return [];
-  let res = [];
+var findBottomLeftValue = function(root) {
+  if(!root) return ;
+  let res = null;
   let queue = [root];
   while(queue.length > 0) {
       let length = queue.length;
-      let temp = [];
-      while(length--) {
+      for(let i = 0; i < length; i++) {
           let cur = queue.shift();
           if(cur.left) {
               queue.push(cur.left);
           }
           if(cur.right) {
-              queue.push(cur.right)
+              queue.push(cur.right);
           }
-          temp.push(cur.val)
+          if(i === 0) {
+              res = cur.val;
+          }
       }
-      res.unshift(temp);
   }
   return res;
 };

@@ -40,3 +40,8 @@ function BFS(start, target) {
 - [x] 559. N叉树的最大深度 https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/
 - [x] 面试题32 从上到下打印二叉树 II https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/
 - [x] 107. 二叉树的层次遍历 II https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/
+- [x] 429. N叉树的层序遍历 https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
+- [x] 面试题32 - I. 从上到下打印二叉树 https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/
+- [x] 199. 二叉树的右视图 https://leetcode-cn.com/problems/binary-tree-right-side-view/
+- [x] 513. 找树左下角的值 https://leetcode-cn.com/problems/find-bottom-left-tree-value/
+- [x] 752. 打开转盘锁 https://leetcode-cn.com/problems/open-the-lock/
