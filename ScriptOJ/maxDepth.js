@@ -46,7 +46,6 @@ var maxDepth = function(root) {
 
     let l = cur.left;
     let r = cur.right;
-
     l && queue.push(l);
     r && queue.push(r);
   }
